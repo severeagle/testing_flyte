@@ -1,2 +1,2 @@
 docker build -t mlserver .
-docker run -it mlserver /bin/bash
+docker run -v .:/root:delegated -it mlserver /bin/bash

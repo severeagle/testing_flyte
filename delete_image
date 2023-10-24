@@ -1,1 +1,2 @@
 docker rmi -f mlserver
+sudo rm .bash_history .python_history
